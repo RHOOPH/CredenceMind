@@ -1,0 +1,30 @@
+
+.search-form{
+	
+	width:40%;
+}
+.cart-button{
+	 width:100px;
+}
+
+.navbar-collapse{
+}
+
+
+
+
+
+@media (min-width: 768px){
+
+.search-form{
+	min-width:290px;}
+
+}
+
+@media(max-width:767px){
+
+.login-button{
+	width:100px;}
+ul.navbar-nav li:nth-child(2){order:3;}
+
+}
