@@ -46,16 +46,20 @@ ul.navbar-nav li:nth-child(2){order:3;}
 }
 
 /*styling for third row*/
+
 .third-row .btn{
 	font-weight: 500;
 }
-/*.third-row .inner-row{
-	height:15rem;
 
-}
-.third-row .{
-	height:15rem;*/
-}
+
 .third-row .inner-row>div{
-	cursor: pointer;
+	cursor:pointer;
+}
+.third-row .inner-row img {
+	width:100%;
+}
+
+.third-row .secondcolumn img{
+	height: 100%;
+
 }
