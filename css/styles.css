@@ -50,16 +50,46 @@ ul.navbar-nav li:nth-child(2){order:3;}
 .third-row .btn{
 	font-weight: 500;
 }
-
-
-.third-row .inner-row>div{
-	cursor:pointer;
+.third-row .first-column .card-body{
+overflow-x:hidden;	
 }
-.third-row .inner-row img {
+.third-row .first-column .discounted-item{
+	cursor: pointer;
+}
+.third-row .discounted-item .image-box{
+	height:175px;
+	width:175px;
+}
+.third-row .discounted-item .image-box>img{
+	height: 100%;
 	width:100%;
 }
+.third-row .second-column{
+	min-width:230px;
+	height: 353px;
 
-.third-row .secondcolumn img{
+}
+.third-row .second-column .image-box{
 	height: 100%;
+}
 
+
+.third-row .second-column .image-box>img{
+	width:100%;
+	height:100%;
+}
+
+.third-row .scrollspace{
+	position: absolute;
+	height:100%;
+	width:40px;
+}
+.third-row .scrollspace:nth-child(2){
+	right:0;
+
+}
+.third-row .icon-box{
+	height:50px;
+	box-shadow: 1px 2px 10px -1px;
+	background-color:hsla( 0 ,0%, 100%, .98);
 }
